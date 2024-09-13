@@ -1,4 +1,4 @@
-# [Ghost 4.X](https://github.com/TryGhost/Ghost) on [Heroku](https://heroku.com)
+# [Ghost 5.X](https://github.com/TryGhost/Ghost) on [Heroku](https://heroku.com)
 
 > Notice: If you are getting a Heroku policy error please refer to this [discussion](https://github.com/thelovekesh/ghost-v5-on-heroku/discussions/24).
 
