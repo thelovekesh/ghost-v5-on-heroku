@@ -33,6 +33,6 @@
     },
     "scripts": {
         "start": "node ghost/index.js",
-        "postinstall": "node bin/install-ghost.mjs && bash bin/cloudinary.sh && bash bin/aws-s3.sh && bash bin/themes.sh"
+        "postinstall": "node bin/install-ghost.mjs && yarn install --cwd ghost && bash bin/cloudinary.sh && bash bin/aws-s3.sh && bash bin/themes.sh"
     }
 }
