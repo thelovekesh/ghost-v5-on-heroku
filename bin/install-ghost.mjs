@@ -27,10 +27,10 @@ if (hash.toString("hex") !== shasum) {
     throw new Error("Integrity check failed");
 }
 
-if (!fs.existsSync(ghostInstallDir)) {
+if (fs.existsSync(ghostInstallDir)) {
     fs.rmdirSync(ghostInstallDir, { recursive: true });
-    fs.mkdirSync(ghostInstallDir);
 }
+fs.mkdirSync(ghostInstallDir);
 
 Readable.from(Buffer.from(tarballBuffer)).pipe(
     tar.x({
