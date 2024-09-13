@@ -38,7 +38,3 @@ Readable.from(Buffer.from(tarballBuffer)).pipe(
         C: ghostInstallDir,
     })
 );
-
-process.chdir(ghostInstallDir);
-console.log("Installing Ghost...");
-exec("yarn install");
