@@ -8,4 +8,4 @@ cat "config.production.json"
 
 bin/wait-for-db
 
-knex-migrator init --mgpath ghost
+# knex-migrator init --mgpath ghost
