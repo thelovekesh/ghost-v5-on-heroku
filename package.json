@@ -1,0 +1,38 @@
+{
+    "name": "ghost-v5-on-heroku",
+    "version": "5.94.0",
+    "description": "Deploy latest ghost v5 on Heroku",
+    "main": "ghost/index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thelovekesh/ghost-v5-on-heroku.git"
+    },
+    "keywords": [
+        "ghost",
+        "ghost v5",
+        "heroku"
+    ],
+    "author": "thelovekesh <hi@thelovekesh.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/thelovekesh/ghost-v5-on-heroku/issues"
+    },
+    "homepage": "https://github.com/thelovekesh/ghost-v5-on-heroku#readme",
+    "engines": {
+        "node": "^18.12.1 || ^20.11.1"
+    },
+    "dependencies": {
+        "casper": "github:TryGhost/Casper#main",
+        "ghost-storage-adapter-s3": "^2.8.0",
+        "ghost-storage-cloudinary": "^3.0.0",
+        "lyra": "github:TryGhost/lyra#main",
+        "mysql2": "2.3.3"
+    },
+    "devDependencies": {
+        "tar": "^7.4.3"
+    },
+    "scripts": {
+        "start": "node ghost/index.js",
+        "postinstall": "node bin/install-ghost.mjs && bash bin/cloudinary.sh && bash bin/aws-s3.sh && bash bin/themes.sh"
+    }
+}
