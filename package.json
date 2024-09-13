@@ -23,7 +23,7 @@
         "ghost-storage-adapter-s3": "^2.8.0",
         "ghost-storage-cloudinary": "^3.0.0",
         "lyra": "github:TryGhost/lyra#main",
-        "mysql2": "2.3.3"
+        "mysql2": "3.11.2"
     },
     "devDependencies": {
         "tar": "^7.4.3"
