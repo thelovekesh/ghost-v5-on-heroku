@@ -1249,10 +1249,10 @@ ghost-storage-base@^1.0.0:
   dependencies:
     moment "2.27.0"
 
-ghost-storage-cloudinary@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/ghost-storage-cloudinary/-/ghost-storage-cloudinary-3.0.0.tgz#d4374832e38dc37a33b503d7389245c3a1ac643e"
-  integrity sha512-A47ltpZQAReJ+laboiabu+QxDt+Z0eP4LpHneY11/m39UKemvvxhkwskDffo3ppMYTHgNpx8Uh55+qbl7GAWUg==
+ghost-storage-cloudinary@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/ghost-storage-cloudinary/-/ghost-storage-cloudinary-3.0.1.tgz#f2052abfaa4a968eb53f6ff61bae26e2fdb4a7ad"
+  integrity sha512-QZZYJIHmWRZARPH31GDP+P6i11S6UaHEK50GYLJNRUJN/f2MSIAUAYPIF8nTE1ouK0YR7iSmekfzi81Y9kdy1A==
   dependencies:
     "@tryghost/debug" "^0.1.17"
     "@tryghost/errors" "^1.2.18"
