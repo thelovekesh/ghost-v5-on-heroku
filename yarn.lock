@@ -997,8 +997,8 @@ caller@^1.0.1:
 
 "casper@github:TryGhost/Casper#main":
   version "5.9.0"
-  uid b79a55d01ed114467e9847eb0de68bf41e198a50
-  resolved "https://codeload.github.com/TryGhost/Casper/tar.gz/b79a55d01ed114467e9847eb0de68bf41e198a50"
+  uid b3b388d30d09ba5f353d014eb6d5db5a3ef606fc
+  resolved "https://codeload.github.com/TryGhost/Casper/tar.gz/b3b388d30d09ba5f353d014eb6d5db5a3ef606fc"
 
 chownr@^3.0.0:
   version "3.0.0"
