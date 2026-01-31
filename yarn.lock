@@ -1360,8 +1360,8 @@ lru.min@^1.0.0:
 
 "lyra@github:TryGhost/lyra#main":
   version "1.0.0"
-  uid "42d51f960ac885e52fbc2b11de672944c4790e75"
-  resolved "https://codeload.github.com/TryGhost/lyra/tar.gz/42d51f960ac885e52fbc2b11de672944c4790e75"
+  uid "9801329fc0be84420c48dfed43225fd847c1bdf3"
+  resolved "https://codeload.github.com/TryGhost/lyra/tar.gz/9801329fc0be84420c48dfed43225fd847c1bdf3"
 
 mimic-response@^1.0.0:
   version "1.0.1"
