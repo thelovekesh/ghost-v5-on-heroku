@@ -996,9 +996,9 @@ caller@^1.0.1:
   integrity sha512-n+21IZC3j06YpCWaxmUy5AnVqhmCIM2bQtqQyy00HJlmStRt6kwDX5F9Z97pqwAB+G/tgSz6q/kUBbNyQzIubw==
 
 "casper@github:TryGhost/Casper#main":
-  version "5.9.0"
-  uid b79a55d01ed114467e9847eb0de68bf41e198a50
-  resolved "https://codeload.github.com/TryGhost/Casper/tar.gz/b79a55d01ed114467e9847eb0de68bf41e198a50"
+  version "5.10.1"
+  uid "24e244e72ed056775da4b1d975f003d141da475e"
+  resolved "https://codeload.github.com/TryGhost/Casper/tar.gz/24e244e72ed056775da4b1d975f003d141da475e"
 
 chownr@^3.0.0:
   version "3.0.0"
